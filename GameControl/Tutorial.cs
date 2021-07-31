@@ -157,7 +157,7 @@ public class Tutorial : MonoBehaviour
     private void rollQuest()
     {
         newQuest("roll",
-                "You can roll by pressing the right shift.\n\nTry it!",
+                "You can roll by pressing the left shift.\n\nTry it!",
                 () => { },
                 () => Input.GetKeyDown("left shift"),
                 () => startQuest("attack", 5));
