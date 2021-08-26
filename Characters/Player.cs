@@ -118,7 +118,6 @@ public class Player : Character
         this.blocked = true;
     }
 
-    // ?? do czego to?
     private void blockOff()
     {
         this.animator.SetBool("IdleBlock", false);
